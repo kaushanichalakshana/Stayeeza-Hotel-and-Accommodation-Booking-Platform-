@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+.abo{
+    background-color: #f8f8f8;
+}
+.heading h1{
+    color: #343a40;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+    background-color: #343a40;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+.abo-content{
+    flex: 1;
+    width: 60px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+}
+.abo-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.abo-content p{
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.abo-image{
+    flex: 1;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .abo-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .abo-content h2 {
+        font-size: 24px;
+    }
+
+    .abo-content p {
+        font-size: 14px;
+    }
+
+    .abo-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .navbar-toggler {
+        margin-top: 10px;
+    }
+    
+    .navbar-collapse {
+        background-color: #343a40;
+        padding: 10px;
+    }
+    
+    .navbar-nav {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-link {
+        display: block;
+        padding: 5px 0;
+    }
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

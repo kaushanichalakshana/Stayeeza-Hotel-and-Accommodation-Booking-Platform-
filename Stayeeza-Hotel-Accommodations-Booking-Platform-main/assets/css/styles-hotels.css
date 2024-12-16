@@ -1,0 +1,493 @@
+@font-face
+{
+    font-family: Audiowide;
+    src: url(../../assets/fonts/l7gdbjpo0cum0ckerWCdmA_OIxo.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:Audiowide;src:url(../../assets/fonts/l7gdbjpo0cum0ckerWCdlg_O.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:'Autour One';src:url(../../assets/fonts/UqyVK80cP25l3fJgbdfbo5BcV_cx.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:'Autour One';src:url(../../assets/fonts/UqyVK80cP25l3fJgbdfbo55cVw.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:Barriecito;src:url(../../assets/fonts/WWXXlj-CbBOSLY2QTuY_Gd0oYjTO.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+@font-face
+{
+    font-family:Barriecito;src:url(../../assets/fonts/WWXXlj-CbBOSLY2QTuY_GdwoYjTO.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:Barriecito;src:url(../../assets/fonts/WWXXlj-CbBOSLY2QTuY_GdIoYg.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:Barrio;src:url(../../assets/fonts/wEO8EBXBk8hBIDi0fAwgads.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:Barrio;src:url(../../assets/fonts/wEO8EBXBk8hBIDi0cgwg.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:'BioRhyme Expanded';src:url(../../assets/fonts/i7dQIE1zZzytGswgU577CDY9LjbffxSdT3G_Yg.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:'BioRhyme Expanded';src:url(../../assets/fonts/i7dQIE1zZzytGswgU577CDY9LjbffxSTT3E.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:'Bowlby One';src:url(../../assets/fonts/taiPGmVuC4y96PFeqp8sqomI_A.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:'Bowlby One SC';src:url(../../assets/fonts/DtVlJxerQqQm37tzN3wMug9P_gH2ojhN.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:'Bowlby One SC';src:url(../../assets/fonts/DtVlJxerQqQm37tzN3wMug9P_g_2og.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:'Bungee Inline';src:url(../../assets/fonts/Gg8zN58UcgnlCweMrih332VuPGp_-WEg.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+@font-face
+{
+    font-family:'Bungee Inline';src:url(../../assets/fonts/Gg8zN58UcgnlCweMrih332VuPGt_-WEg.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:'Bungee Inline';src:url(../../assets/fonts/Gg8zN58UcgnlCweMrih332VuPGV_-Q.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:Cookie;src:url(../../assets/fonts/syky-y18lb0tSbf9kgqS.woff2) format('woff2');font-weight:400;font-style:normal;font-display:auto;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:'Croissant One';src:url(../../assets/fonts/3y9n6bU9bTPg4m8NDy3Kq24UA3Ngnqcd.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:'Croissant One';src:url(../../assets/fonts/3y9n6bU9bTPg4m8NDy3Kq24UA31gng.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face
+{
+    font-family:Montserrat;src:url(../../assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+
+@font-face
+{
+    font-family:Montserrat;src:url(../../assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+@font-face
+{
+    font-family:Montserrat;src:url(../../assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+@font-face
+{
+    font-family:Montserrat;src:url(../../assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face
+{
+    font-family:Montserrat;src:url(../../assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+body
+{
+    background: url(assets/img/download.png),#fff9e4;
+}
+
+.navbar
+{
+    background: #343a40;
+    margin-top: -6px;
+    padding-bottom: 22px;
+    margin-bottom: -3px;
+    padding-top: 5px;
+    height: 86px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-brand img
+{
+    padding-left: 0;
+}
+
+.navbar-collapse
+{
+    color: #f0f5fb;
+    font-family: Montserrat,sans-serif;
+    margin: -2px -2px -2px 12px;
+    background: #343a40;
+    padding: 12px;
+}
+
+.nav-link
+{
+    color: #fff;
+}
+
+.rounded
+{
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.btn-primary
+{
+    margin-right: 20px;
+}
+
+.footer-navigation img
+{
+    width: 149px;
+    height: 139px;
+}
+
+.footer-navigation a
+{
+    color: #fff;
+}
+
+.footer-contacts-icon
+{
+    margin-right: 10px;
+}
+
+.footer-center-info
+{
+    margin-left: 10px;
+}
+
+.social-links a
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.content
+{
+    margin-top: 100px;
+}
+
+.btn-d,.page-link
+{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+    font-weight: 600;
+}
+
+.page-link:hover
+{
+    font-weight: 600;
+}
+
+.btn-d:hover,.page-link:hover
+{
+    background-color: #fffffe;
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6
+{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.h5,h5
+{
+    font-size: 1.25rem;
+}
+
+p
+{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.footer-contacts p,img,svg
+{
+    vertical-align: middle;
+}
+
+.row1
+{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    margin-right: calc(var(--bs-gutter-x)/-2);
+    margin-left: calc(var(--bs-gutter-x)/-2);
+}
+
+.row1>*
+{
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/2);
+    padding-left: calc(var(--bs-gutter-x)/2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 1.125rem;
+}
+
+.card-body
+{
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.card-title
+{
+    margin-bottom: .5rem;
+}
+
+.card-img,.card-img-bottom,.card-img-top,footer
+{
+    width: 100%;
+}
+
+.card-img,.card-img-top
+{
+    border-top-left-radius: calc(1.125rem - 1px);
+    border-top-right-radius: calc(1.125rem - 1px);
+}
+
+footer
+{
+    justify-content: center;
+    display: flex;
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.12);
+    box-sizing: border-box;
+    text-align: left;
+    font: 700 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 80px;
+    bottom: 0;
+    color: #fff;
+}
+
+.footer-navigation h3
+{
+    margin: 0 0 20px;
+    font: 36px Cookie,cursive;
+    color: #fff;
+}
+
+.footer-navigation h3 span
+{
+    color: #5383d3;
+}
+
+.footer-navigation h3 a,.footer-navigation p.links a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-navigation p.company-name
+{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer-contacts p
+{
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-contacts p a
+{
+    color: #5383d3;
+    text-decoration: none;
+}
+
+.fa.footer-contacts-icon
+{
+    background-color: #33383b;
+    color: #fff;
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 10px 15px 10px 0;
+}
+
+span.new-line-span
+{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-about h4
+{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-about p
+{
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+div.social-links
+{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.nav-clr
+{
+    color: #fff;
+}
+
+.nav-link:hover,.navbar-nav .nav-link.active
+{
+    color: var(--bs-yellow);
+}
+
+.nav-clr,.nav-link,.nav-link:hover
+{
+    font-family: Montserrat;
+}
+
+.me-3
+{
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.me-3:hover
+{
+    background-color: #f02e2e;
+    border-color: #f02e2e;
+}
+
+.custom-modal .modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+.custom-modal .modal-content {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal .modal-header {
+    border: none;
+    border-radius: 20px 20px 0 0;
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+}
+
+.custom-modal .modal-title {
+    color: #333;
+}
+
+.custom-modal .modal-body {
+    padding: 20px;
+}
+
+.custom-modal .modal-footer {
+    border: none;
+    border-radius: 0 0 20px 20px;
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+}
+
+.custom-modal .close {
+    font-size: 1.5rem;
+}
+
+
+
+    @media (max-width:767px)
+        {
+        .footer-contacts
+        {
+            margin: 30px 0;
+        }
+    }

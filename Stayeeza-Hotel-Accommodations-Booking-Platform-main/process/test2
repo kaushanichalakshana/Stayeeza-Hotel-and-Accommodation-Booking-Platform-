@@ -1,0 +1,29 @@
+USE your_database_name;
+
+    INSERT INTO hotelowner (ownerId, ownerFirstName, ownerLastName, ownerGender, ownerPhoneNo, ownerEmail, ownerPassword)
+    VALUES
+    (16, 'John', 'Doe', 'Male', '0712345678', 'john.doe@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (2, 'Jane', 'Smith', 'Female', '0723456789', 'jane.smith@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (3, 'Bob', 'Johnson', 'Male', '0734567890', 'bob.johnson@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (4, 'Alice', 'Williams', 'Female', '0745678901', 'alice.williams@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (5, 'Charlie', 'Brown', 'Male', '0756789012', 'charlie.brown@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (6, 'Eva', 'Davis', 'Female', '0767890123', 'eva.davis@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (17, 'Michael', 'Jones', 'Male', '0778901234', 'michael.jones@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (8, 'Sarah', 'Clark', 'Female', '0789012345', 'sarah.clark@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (9, 'David', 'Miller', 'Male', '0790123456', 'david.miller@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (10, 'Emily', 'Anderson', 'Female', '0701234567', 'emily.anderson@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (11, 'Alex', 'Turner', 'Male', '0712345678', 'alex.turner@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (12, 'Olivia', 'White', 'Female', '0723456789', 'olivia.white@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (13, 'Ryan', 'Harris', 'Male', '0734567890', 'ryan.harris@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (14, 'Sophia', 'Thomas', 'Female', '0745678901', 'sophia.thomas@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu'),
+    (15, 'Jackson', 'Lee', 'Male', '0756789012', 'jackson.lee@example.com', '$2y$10$oyJPLn4Y5faSX.wK7pSqSOE0TqP/d50AKh259.8erDKGSDeBe8THu');
+
+USE your_database_name;
+
+INSERT INTO hotel_reviews (review_id, userId, user_rating, user_review, hotelId)
+VALUES
+(1, 1, 4, 'Had a wonderful experience at this hotel. The staff was friendly and attentive, and the room was clean and comfortable. I would highly recommend it to others.', 6),
+(2, 2, 5, 'The service at this hotel is exceptional. From check-in to check-out, every staff member went above and beyond to ensure a pleasant stay. The amenities were also top-notch.', 6),
+(3, 3, 3, 'The stay was average. The room could have been cleaner, and there were a few issues with maintenance. However, the location is convenient, and the staff was polite.', 6),
+(4, 4, 2, 'Unfortunately, my experience was disappointing. The room was not as expected, and the service was lacking. I would not recommend this hotel to others.', 6),
+(5, 5, 5, 'I had a fantastic time at this hotel. The atmosphere was cozy, and the staff made me feel at home. The room was spacious and well-maintained. Definitely coming back!', 6);
